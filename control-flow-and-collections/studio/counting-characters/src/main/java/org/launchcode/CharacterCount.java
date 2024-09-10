@@ -23,10 +23,12 @@ public class CharacterCount {
         for (Character letter : charactersInString) {
             Integer charCount = 0;
 
-            for (int i = 0; i < userString.length(); i++) {
-                if (userString.charAt(i) == letter) {
-                    charCount ++;
-                    letters.put(letter,charCount);
+            if (letter.toString().matches("[a-z]+")) {
+                for (int i = 0; i < userString.length(); i++) {
+                    if (userString.charAt(i) == letter) {
+                        charCount++;
+                        letters.put(letter, charCount);
+                    }
                 }
             }
         }
