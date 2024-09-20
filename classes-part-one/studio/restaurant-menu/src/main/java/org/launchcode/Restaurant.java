@@ -7,7 +7,7 @@ public class Restaurant {
         MenuItem itemThree = new MenuItem("Tiramisu", 19.99, "Yummy", "dessert", "1973-08-19");
         MenuItem itemFour = new MenuItem("Pizza", 12.99, "Circle with Pepperoni", "entree", "1976-06-13");
         MenuItem itemFive = new MenuItem("Hot Broth", 99.99, "Heated up Broth in a Cup", "appetizer","1996-10-04");
-        MenuItem itemSix = new MenuItem("Cheesecake", 8.99, "Very Cheezy", "dessert", "2024-09-16");
+        MenuItem itemSix = new MenuItem("Cheesecake", 8.99, "Very Cheesy", "dessert", "2024-09-16");
 
         Menu menu = new Menu();
 

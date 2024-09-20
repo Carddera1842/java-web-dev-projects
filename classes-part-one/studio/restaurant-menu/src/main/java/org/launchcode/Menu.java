@@ -38,7 +38,8 @@ public class Menu {
         return "\nSTUDIO FOOD PLACE\n" +
                 "\n*** Appetizers ***\n" + appetizers.toString() + "\n" +
                 "\n*** Entrees ***\n" + entrees.toString() + "\n" +
-                "\n*** Desserts ***\n" + desserts.toString() + "\n";
+                "\n*** Desserts ***\n" + desserts.toString() + "\n" +
+                "\nMenu Last Updated: " + lastUpdated;
     }
 
     void addDish(MenuItem newItem) {
